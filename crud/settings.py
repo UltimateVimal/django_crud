@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-+-*h#-lv8g#dh#7qhvkmkbj#ch=5y!mh^&ygc$n2+fv4bsf3z%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'crud.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'DBone',
-        'USER': 'postgres',
-        'PASSWORD': 'abc@123',
-        'HOST':'localhost'
+        'NAME': 'dal4qn9i2u6345',
+        'USER': 'uydirxxftorrme',
+        'PASSWORD': 'c1faf2dec4113ba77e47856da0688d3e4e7c68040b64f71c7d5106e1c1ff36dd',
+        'HOST':'ec2-44-199-52-133.compute-1.amazonaws.com'
     }
 }
 
